@@ -12,8 +12,14 @@ public class Main {
 
         System.out.printf("Nome do 1º funcionario: %s%n", empregado1.getNome());
         System.out.printf("Salário do 1º funcionario: %.2f%n", empregado1.getSalarioMensal());
+        System.out.printf("Ganhos anuais do 1º funcionario: %.2f%n", empregado1.getSalarioMensal()*12);
 
         System.out.printf("Nome do 2º funcionario: %s%n", empregado2.getNome());
         System.out.printf("Salário do 2º funcionario: %.2f%n", empregado2.getSalarioMensal());
+        System.out.printf("Ganhos anuais do 2º funcionario: %.2f%n", empregado2.getSalarioMensal()*12);
+
+
+
+        //empregado1.setSalarioMensal();
     }
 }

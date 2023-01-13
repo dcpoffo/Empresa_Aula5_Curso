@@ -11,4 +11,12 @@ public class Empregado {
     public void setNome(String novoNome){
         nome = novoNome;
     }
+
+    public double getSalarioMensal() {
+        return salarioMensal;
+    }
+
+    public void setSalarioMensal(double salarioMensal) {
+        this.salarioMensal = salarioMensal;
+    }
 }
